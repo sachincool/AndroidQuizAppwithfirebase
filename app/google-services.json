@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "514928829514",
+    "firebase_url": "https://awsomequizapp.firebaseio.com",
+    "project_id": "awsomequizapp",
+    "storage_bucket": "awsomequizapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514928829514:android:5e3357252f37c299",
+        "android_client_info": {
+          "package_name": "luthra.harshit.androidquizappwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514928829514-65sf7fg2fdqvlv73npm99jm8mi8v31sn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "luthra.harshit.androidquizappwithfirebase",
+            "certificate_hash": "f1388e2be285e04adbad88cd4dd2e00a15b4c088"
+          }
+        },
+        {
+          "client_id": "514928829514-7hl7n07qaug3gimir0q9gnmtsjbtj56r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgOOY-Y8m2ALRHr4wORu7OaMTrtSG-jxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514928829514-7hl7n07qaug3gimir0q9gnmtsjbtj56r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
