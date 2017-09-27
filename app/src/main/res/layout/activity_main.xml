@@ -47,10 +47,10 @@
                     app:met_singleLineEllipsis="true" />
 
                 <com.rengwuxian.materialedittext.MaterialEditText
-                    android:id="@+id/login_email"
+                    android:id="@+id/login_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Email"
+                    android:hint="Password"
                     android:inputType="textEmailAddress"
                     android:textColor="@color/colorPrimary"
                     android:textColorHint="@color/colorPrimary"
