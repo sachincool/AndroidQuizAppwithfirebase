@@ -46,10 +46,10 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        sign_up.setOnClickListener(new View.OnClickListener() {
+        sign_in.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                signIn_function(edtNewusr.getText().toString(),edtpassword.getText().toString());
+                signIn_function(username.getText().toString(),password.getText().toString());
             }
 
 
@@ -63,8 +63,7 @@ private void showSignupDialog(){
     View signup_layout=inflater.inflate(R.layout.sign_up,null);
 
 
-
-    edtNewusr=(MaterialEditText)findViewById(R.id.sign_up_username);
+    edtNewusr=(MaterialEditText)signup_layout.findViewById(R.id.sign_up_username);
     edtpassword=(MaterialEditText)signup_layout.findViewById(R.id.sign_up_password);
     edtnewemail=(MaterialEditText)signup_layout.findViewById(R.id.sign_up_email);
     alertdialog.setView(signup_layout);
