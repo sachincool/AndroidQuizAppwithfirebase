@@ -1,6 +1,7 @@
 package luthra.harshit.androidquizappwithfirebase;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -109,8 +110,11 @@ alertdialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                 {
                     if(!user.isEmpty()){
                         User login = dataSnapshot.child(user).getValue(User.class);
-                        if(login.getPassword().equals(pwd))
-                            Toast.makeText(MainActivity.this,"Login Successful",Toast.LENGTH_SHORT).show();
+                        if(login.getPassword().equals(pwd)) {
+                            Intent homeActivity = new Intent(MainActivity.this, Home.class);
+                            startActivity(homeActivity);
+                            finish();
+                        }
                         else Toast.makeText(MainActivity.this,"Incorrect Password",Toast.LENGTH_SHORT).show();
                     }
                     else

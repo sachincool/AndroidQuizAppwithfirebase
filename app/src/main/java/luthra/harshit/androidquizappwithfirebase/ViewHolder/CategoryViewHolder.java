@@ -27,8 +27,12 @@ public class CategoryViewHolder extends RecyclerView.ViewHolder implements View.
         itemView.setOnClickListener(this);
     }
 
+    public void setItemClickListener(ItemClickListener itemClickListener) {
+        this.itemClickListener = itemClickListener;
+    }
+
     @Override
     public void onClick(View view) {
-
+itemClickListener.onClick(view,getAdapterPosition(),false);
     }
 }
